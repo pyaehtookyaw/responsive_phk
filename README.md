@@ -8,10 +8,17 @@ A Flutter package that helps you build responsive layouts effortlessly across di
 ✅ Lightweight and easy to use.  
 ✅ No external dependencies.
 
-![Responsive Demo](screenshots/responsive_center_mobile.png)
-![Responsive Demo](screenshots/responsive_two_column_mobile.png)
-![Responsive Demo](screenshots/responsive_center_web.png)
-![Responsive Demo](screenshots/responsive_two_column_web.png)
+## Screenshots (Mobile)
+
+| ![Responsive Center Mobile](screenshots/responsive_center_mobile.png) | ![Responsive Two Column Mobile](screenshots/responsive_two_column_mobile.png) |
+|:--:|:--:|
+| Centered Layout | Two-Column Layout |
+
+## Screenshots (Web)
+
+| ![Responsive Center Web](screenshots/responsive_center_web.png) | ![Responsive Two Column Web](screenshots/responsive_two_column_web.png) |
+|:--:|:--:|
+| Centered Layout | Two-Column Layout |
 
 ## Example usage
 
@@ -54,6 +61,7 @@ class ResponseCenterScreen extends StatelessWidget {
     );
   }
 }
+
 
 
 ## Getting started
