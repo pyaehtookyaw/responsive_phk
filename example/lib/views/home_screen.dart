@@ -33,7 +33,7 @@ class HomeScreen extends StatelessWidget {
                 Navigator.push(
                   context,
                   MaterialPageRoute(
-                      builder: (context) => const ResponsiveTwwColumnScreen()),
+                      builder: (context) => const ResponsiveTwoColumnScreen()),
                 );
               },
               child: Text('Responsive Two Column'),

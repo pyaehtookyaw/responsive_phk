@@ -3,14 +3,14 @@ import 'package:flutter/material.dart';
 import 'package:responsive_phk/constants/breakpoints.dart';
 import 'package:responsive_phk/widgets/responsive_two_column_layout.dart';
 
-class ResponsiveTwwColumnScreen extends StatelessWidget {
-  const ResponsiveTwwColumnScreen({super.key});
+class ResponsiveTwoColumnScreen extends StatelessWidget {
+  const ResponsiveTwoColumnScreen({super.key});
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
-          title: Text('Home Screen'),
+          title: Text('Responsive Two Column Screen'),
           centerTitle: true,
         ),
         body: Align(

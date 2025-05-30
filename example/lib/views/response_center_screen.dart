@@ -9,7 +9,7 @@ class ResponseCenterScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Home Screen'),
+        title: Text('Response Center Screen'),
         centerTitle: true,
       ),
       body: ResponsiveCenter(

@@ -1,7 +1,7 @@
 name: responsive_phk
 description: "A new Flutter package project."
 version: 1.0.0
-homepage:
+homepage: https://github.com/pyaehtookyaw/responsive_phk.git
 
 environment:
   sdk: ^3.6.2
