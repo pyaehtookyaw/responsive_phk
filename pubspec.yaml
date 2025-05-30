@@ -1,6 +1,6 @@
 name: responsive_phk
-description: "A new Flutter package project."
-version: 1.0.0
+description: "A Flutter package to build responsive layouts effortlessly on multiple screen sizes."
+version: 1.0.1
 homepage: https://github.com/pyaehtookyaw/responsive_phk.git
 
 environment:
