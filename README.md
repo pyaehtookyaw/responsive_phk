@@ -8,6 +8,10 @@ A Flutter package that helps you build responsive layouts effortlessly across di
 ✅ Lightweight and easy to use.  
 ✅ No external dependencies.
 
+## Demo
+
+![Responsive Layout Demo](screenshots/responsive_phk.gif)
+
 ## Screenshots (Mobile)
 
 | ![Responsive Center Mobile](screenshots/responsive_center_mobile.png) | ![Responsive Two Column Mobile](screenshots/responsive_two_column_mobile.png) |
@@ -20,9 +24,9 @@ A Flutter package that helps you build responsive layouts effortlessly across di
 |:--:|:--:|
 | Centered Layout | Two-Column Layout |
 
-## Demo Video
+<!-- ## Demo Video
 
-🎥 [Watch the Demo Video](https://github.com/pyaehtookyaw/responsive_phk/blob/master/video/responsive_phk.mp4)
+🎥 [Watch the Demo Video](https://github.com/pyaehtookyaw/responsive_phk/blob/master/video/responsive_phk.mp4) -->
 
 ## Getting started
 
