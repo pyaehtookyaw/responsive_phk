@@ -34,26 +34,24 @@ class ResponsiveTwoColumnScreen extends StatelessWidget {
                   ),
                 ),
                 spacing: 20,
-                endContent: Expanded(
-                  child: ListView.builder(
-                      shrinkWrap: true,
-                      itemCount: info.length,
-                      itemBuilder: (context, index) {
-                        return Card(
-                          elevation: 5,
-                          child: Padding(
-                            padding: EdgeInsets.all(20),
-                            child: Row(
-                              mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                              children: [
-                                Text(info[index].title ?? ''),
-                                Text(info[index].description)
-                              ],
-                            ),
+                endContent: ListView.builder(
+                    shrinkWrap: true,
+                    itemCount: info.length,
+                    itemBuilder: (context, index) {
+                      return Card(
+                        elevation: 5,
+                        child: Padding(
+                          padding: EdgeInsets.all(20),
+                          child: Row(
+                            mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                            children: [
+                              Text(info[index].title ?? ''),
+                              Text(info[index].description)
+                            ],
                           ),
-                        );
-                      }),
-                ),
+                        ),
+                      );
+                    }),
               ),
             ),
           ),
