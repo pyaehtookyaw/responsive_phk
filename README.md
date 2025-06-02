@@ -20,6 +20,10 @@ A Flutter package that helps you build responsive layouts effortlessly across di
 |:--:|:--:|
 | Centered Layout | Two-Column Layout |
 
+## Demo Video
+
+🎥 [Watch the Demo Video](https://github.com/pyaehtookyaw/responsive_phk/blob/master/video/responsive_phk.mp4)
+
 ## Getting started
 
 ```dart
