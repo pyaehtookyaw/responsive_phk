@@ -20,6 +20,20 @@ A Flutter package that helps you build responsive layouts effortlessly across di
 |:--:|:--:|
 | Centered Layout | Two-Column Layout |
 
+## Getting started
+
+```dart
+import 'package:responsive_phk/widgets/responsive_center.dart';
+
+ResponsiveAppBar(
+  title: 'Home Screen',
+   backgroundColor: Colors.white,
+  foregroundColor: Colors.black,
+  centerTitle: false,
+  mobileActions: [MobileActionButton()],
+  desktopActions: [desktopActions]
+)
+
 ## Example usage
 
 ```dart
@@ -61,15 +75,3 @@ class ResponseCenterScreen extends StatelessWidget {
     );
   }
 }
-
-
-
-## Getting started
-
-Add this package to your `pubspec.yaml`:
-
-```yaml
-dependencies:
-  responsive_phk:
-    git:
-      url: https://github.com/pyaehtookyaw/responsive_phk.git
