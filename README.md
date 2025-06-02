@@ -1,4 +1,4 @@
-# responsive_phk
+## responsive_phk
 
 A Flutter package that helps you build responsive layouts effortlessly across different screen sizes and devices.
 
@@ -7,6 +7,21 @@ A Flutter package that helps you build responsive layouts effortlessly across di
 ✅ Easily adapt your widgets to different screen sizes.  
 ✅ Lightweight and easy to use.  
 ✅ No external dependencies.
+
+## Getting started
+
+```dart
+import 'package:responsive_phk/widgets/responsive_center.dart';
+
+ResponsiveAppBar(
+  title: 'Home Screen',
+   backgroundColor: Colors.white,
+  foregroundColor: Colors.black,
+  centerTitle: false,
+  mobileActions: [MobileActionButton()],
+  desktopActions: [desktopActions]
+)
+```
 
 ## Demo
 
@@ -27,20 +42,6 @@ A Flutter package that helps you build responsive layouts effortlessly across di
 <!-- ## Demo Video
 
 🎥 [Watch the Demo Video](https://github.com/pyaehtookyaw/responsive_phk/blob/master/video/responsive_phk.mp4) -->
-
-## Getting started
-
-```dart
-import 'package:responsive_phk/widgets/responsive_center.dart';
-
-ResponsiveAppBar(
-  title: 'Home Screen',
-   backgroundColor: Colors.white,
-  foregroundColor: Colors.black,
-  centerTitle: false,
-  mobileActions: [MobileActionButton()],
-  desktopActions: [desktopActions]
-)
 
 ## Example usage
 
@@ -83,3 +84,4 @@ class ResponseCenterScreen extends StatelessWidget {
     );
   }
 }
+```
