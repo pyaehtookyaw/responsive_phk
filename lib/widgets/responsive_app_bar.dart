@@ -27,7 +27,7 @@ class ResponsiveAppBar extends StatelessWidget implements PreferredSizeWidget {
   @override
   Widget build(BuildContext context) {
     final screenWidth = MediaQuery.of(context).size.width;
-    final isMobile = screenWidth < Breakpoint.tablet;
+    final isMobile = screenWidth < Breakpoint.desktop;
 
     return AppBar(
       leading: leading,
